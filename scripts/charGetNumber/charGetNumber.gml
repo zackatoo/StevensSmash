@@ -1,6 +1,6 @@
 /// charGetNumber(name)
 /// @description Returns the number of a character given it's name
-/// @param {string} The name of a character
+/// @param {string} name The name of a character
 
 // Returns the number of characters when passed "null"
 
