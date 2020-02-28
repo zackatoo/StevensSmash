@@ -4,6 +4,9 @@ if (active)
 {
 	if (gamepad)
 	{
+		//TODO: consider c-stick
+		//TODO: shorthop vs long hop
+		
 		// Update gamepad controls
 		vert = -gamepad_axis_value(device, keybind.gamepad_vert);
 		horz = gamepad_axis_value(device, keybind.gamepad_horz);
@@ -18,9 +21,9 @@ if (active)
 		pressPadLeft = gamepad_button_check_pressed(device, keybind.gamepad_left);
 		pressPadRight = gamepad_button_check_pressed(device, keybind.gamepad_right);
 		
-		pressEscape = gamepad_button_check_pressed(device, keybind.gamepad_escape);
-		pressEnter = gamepad_button_check_pressed(device, keybind.gamepad_enter);
-		pressBack = gamepad_button_check_pressed(device, keybind.gamepad_back);
+		pressStart = gamepad_button_check_pressed(device, keybind.gamepad_escape);
+		pressA = gamepad_button_check_pressed(device, keybind.gamepad_enter);
+		pressB = gamepad_button_check_pressed(device, keybind.gamepad_back);
 	}
 	else
 	{
