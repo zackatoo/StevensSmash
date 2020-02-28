@@ -1,5 +1,7 @@
 /// @description Initalize keybinds
 
+persistent = true;
+
 // The keybind dictates which key to check for which action. 
 // The player can change these in the settings. 
 // The keybind is stored in the settings file, the ones below are just the defaults.

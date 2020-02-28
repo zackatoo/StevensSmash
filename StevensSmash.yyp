@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "19982cb4-1b1d-48ee-a75b-c2f59cef5228",
+            "Value": {
+                "id": "3c58e7c9-944a-4953-b283-df1edef024c7",
+                "resourcePath": "objects\\obj_charSelect\\obj_charSelect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28902de3-7148-4ba3-bb6e-cf401fba98c1",
             "Value": {
                 "id": "a74778e2-6d72-4547-8ffa-611b8c52df8e",
@@ -60,6 +68,14 @@
                 "id": "0218992a-917b-47a2-adb0-a5f6329a9d21",
                 "resourcePath": "views\\295b2191-13e5-4eec-8a15-5e3604399346.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2c5f7a4c-a23a-4414-b060-bd3d589d376e",
+            "Value": {
+                "id": "33693789-d027-4d8c-9bd8-3235b0719b88",
+                "resourcePath": "scripts\\charGetNumber\\charGetNumber.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -140,6 +156,14 @@
                 "id": "f7cec186-885e-4309-a9d6-2ba0b27d5b75",
                 "resourcePath": "views\\8c183ea3-fd2d-4213-bd70-c58f3430b7dc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9f7c520d-e125-437d-b880-e6e0de0ebd46",
+            "Value": {
+                "id": "acfa01f6-4f2b-4e08-bf94-729e483a6803",
+                "resourcePath": "scripts\\charGetName\\charGetName.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -263,6 +287,14 @@
             }
         },
         {
+            "Key": "e64765ab-ea8a-4b3a-be3f-51bb6b49188c",
+            "Value": {
+                "id": "80ed4a6e-4023-43aa-a4a1-f638ee2c98ac",
+                "resourcePath": "fonts\\fnt_medium\\fnt_medium.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "f3851c18-5e58-4a60-8379-7624b76e05a8",
             "Value": {
                 "id": "030cd47b-e687-4149-9a31-7e2b77c161f9",
@@ -296,7 +328,8 @@
         }
     ],
     "script_order": [
-        
+        "9f7c520d-e125-437d-b880-e6e0de0ebd46",
+        "2c5f7a4c-a23a-4414-b060-bd3d589d376e"
     ],
     "tutorial": ""
 }
