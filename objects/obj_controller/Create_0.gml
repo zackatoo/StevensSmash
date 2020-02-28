@@ -4,6 +4,8 @@
 // and just provides the necessary information to the rest of the game.
 // It is less efficent to do it this way, but much easier to read in the code.
 
+persistent = true;
+
 // Active tells if the inputs should be checked or not. (true = check the inputs)
 
 active = true;

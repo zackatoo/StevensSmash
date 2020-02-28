@@ -25,6 +25,9 @@ if (active)
 	else
 	{
 		// Update keyboard controls
+		vert = keyboard_check(keybind.keyboard_down) - keyboard_check(keybind.keyboard_up);
+		horz = keyboard_check(keybind.keyboard_left) - keyboard_check(keybind.keyboard_right);
+		
 		pressUp = keyboard_check_pressed(keybind.keyboard_up);
 		pressDown = keyboard_check_pressed(keybind.keyboard_down);
 		pressLeft = keyboard_check_pressed(keybind.keyboard_left);
@@ -38,8 +41,5 @@ if (active)
 		pressEscape = keyboard_check_pressed(keybind.keyboard_escape);
 		pressEnter = keyboard_check_pressed(keybind.keyboard_enter);
 		pressBack = keyboard_check_pressed(keybind.keyboard_back);
-		
-		vert = keyboard_check(keybind.keyboard_down) - keyboard_check(keybind.keyboard_up);
-		horz = keyboard_check(keybind.keyboard_left) - keyboard_check(keybind.keyboard_right);
 	}
 }
