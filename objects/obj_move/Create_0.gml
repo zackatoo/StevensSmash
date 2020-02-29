@@ -11,3 +11,7 @@ hitboxStartX = -20;
 hitboxStartY = -5;
 hitboxEndX = -10;
 hitboxEndY = 5;
+
+// frames in animation to start and end hitboxes
+startFrame = 0;
+endFrame = 0;
