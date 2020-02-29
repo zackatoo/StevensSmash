@@ -15,6 +15,7 @@ respawnX = x;
 respawnY = y;
 invincibility = 0;
 invincibleTrans = 0.05;
+dead = false;
 
 // character cannot move while in hitstun
 hitstun = 0;

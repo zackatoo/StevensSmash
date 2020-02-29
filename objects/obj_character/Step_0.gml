@@ -1,3 +1,7 @@
+
+// Don't do all this checking if the character is dead
+if (dead) exit;
+
 // detect if player is on ground
 var onstage = place_meeting(x, y, stage);
 if (onstage) {
@@ -69,8 +73,15 @@ y += yVel;
 if (x < 0 || x > room_width || y < 0 || y > room_height) {
 	// die
 	stocks--;
-	damage_percent = 0;
-	x = respawnX;
-	y = respawnY;
-	invincibility = room_speed;
+	if (stocks > 0) {
+		damage_percent = 0;
+		x = respawnX;
+		y = respawnY;
+		invincibility = room_speed * 2;
+	} else {
+		// Put it somewhere else
+		x = -200;
+		y = -200;
+		dead = true;
+	}
 }
