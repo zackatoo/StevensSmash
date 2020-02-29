@@ -4,6 +4,7 @@ if (onstage) {
 	yVel = 0;
 } else {
 	yVel += fallspeed;
+	if (yVel > terminalVel) yVel = terminalVel;
 }
 
 if (hitstun > 0) { // true when character is flying through air/hit by move
@@ -22,7 +23,7 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 		// TODO: crouch animation
 	} else if (onstage) {
 		// move left/right
-		xVel = controller.vert * movespeed; // TODO: see if causes bug when hit
+		 // TODO: see if causes bug when hit
 	}
 	
 	// attacks
@@ -38,6 +39,10 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 		}
 	}
 }
+
+xVel = controller.horz * movespeed;
+if (xVel < 0) image_xscale = 1;
+else if (xVel > 0) image_xscale = -1;
 
 // apply velocities
 x += xVel;

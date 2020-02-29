@@ -2,9 +2,9 @@
 
 if (room == rm_game)
 {
-	stage = instance_create_depth(0, 0, 0, obj_stage);
+	stage = instance_create_depth(0, 0, 50, obj_stage);
 	
-	HUD = instance_create_depth(0, 0, 0, obj_game_HUD);
+	HUD = instance_create_depth(0, 0, -100, obj_game_HUD);
 	var p = global.numPlayers;
 	for (var i = 0; i < p; i++)
 	{
