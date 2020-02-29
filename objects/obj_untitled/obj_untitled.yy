@@ -1,23 +1,23 @@
 {
-    "id": "8fc699aa-33d1-4648-a2ae-db3356390c48",
+    "id": "90275102-e533-42d8-ac5a-2851b50f650e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "attila_jab",
+    "name": "obj_untitled",
     "eventList": [
         {
-            "id": "401524a2-d9cd-43f6-9a33-c953f0fce7f1",
+            "id": "f15f3c6a-082e-4295-b968-583ec1e4a57e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "8fc699aa-33d1-4648-a2ae-db3356390c48"
+            "m_owner": "90275102-e533-42d8-ac5a-2851b50f650e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "d1226b46-b668-41eb-9dae-0e33db46b561",
+    "parentObjectId": "4a3517aa-d2ff-4dcd-bdae-03233c5ae8ce",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a91f0b53-c422-498f-a868-c5157b42509b",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
