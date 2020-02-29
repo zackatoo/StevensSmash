@@ -17,4 +17,10 @@ for (var i = 0; i < numTempControllers; i++)
 for (var i = 0; i < MAX_PLAYERS; i++)
 {
 	controllers[i] = undefined;
+	selectors[i] = undefined;
 }
+
+playerBuffer = 200;
+playerWidth = MAX_PLAYERS * sprite_get_width(spr_characterIcon) + (MAX_PLAYERS - 1) * playerBuffer;
+playerX = room_width / 2 - playerWidth / 2;
+playerY = room_height * 0.7;

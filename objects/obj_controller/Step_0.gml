@@ -8,7 +8,7 @@ if (active)
 		//TODO: shorthop vs long hop
 		
 		// Update gamepad controls
-		vert = -gamepad_axis_value(device, keybind.gamepad_vert);
+		vert = gamepad_axis_value(device, keybind.gamepad_vert);
 		horz = gamepad_axis_value(device, keybind.gamepad_horz);
 		
 		pressUp = !pressUp && vert < 0;
@@ -29,7 +29,7 @@ if (active)
 	{
 		// Update keyboard controls
 		vert = keyboard_check(keybind.keyboard_down) - keyboard_check(keybind.keyboard_up);
-		horz = keyboard_check(keybind.keyboard_left) - keyboard_check(keybind.keyboard_right);
+		horz = keyboard_check(keybind.keyboard_right) - keyboard_check(keybind.keyboard_left);
 		
 		pressUp = keyboard_check_pressed(keybind.keyboard_up);
 		pressDown = keyboard_check_pressed(keybind.keyboard_down);
