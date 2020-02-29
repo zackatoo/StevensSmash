@@ -319,14 +319,6 @@
             }
         },
         {
-            "Key": "682e8d20-8f29-4e56-9c3f-772b24da0768",
-            "Value": {
-                "id": "f3b836d2-1755-4883-9628-5bf1e8c2fa0b",
-                "resourcePath": "sounds\\snd_fallingoff\\snd_fallingoff.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "75022362-f956-41d6-b25e-a86f53b54156",
             "Value": {
                 "id": "202abe1a-654c-43f3-a4fc-e34c4dbf4e0b",
@@ -482,7 +474,7 @@
             "Key": "af9f6d75-f461-45ce-b990-549feac93451",
             "Value": {
                 "id": "bd4fb236-4930-43f4-b5d6-9f9507f852db",
-                "resourcePath": "sounds\\sound5\\sound5.yy",
+                "resourcePath": "sounds\\snd_starting\\snd_starting.yy",
                 "resourceType": "GMSound"
             }
         },
