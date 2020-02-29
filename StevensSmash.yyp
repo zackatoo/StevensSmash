@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "a9dc4f69-e0e3-475d-864d-a7c2aa69f051",
+            "Value": {
+                "id": "f23d44d9-547f-4469-894d-4ffc52df319c",
+                "resourcePath": "scripts\\getSprite\\getSprite.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ac1f2dfb-90b5-4e13-9523-24e98866ae95",
             "Value": {
                 "id": "ceb0a465-566a-4217-bd32-98fe52451b27",
@@ -388,6 +396,14 @@
                 "id": "59dba9eb-22b1-496b-bd00-65004a6277bc",
                 "resourcePath": "sprites\\spr_characterIcon\\spr_characterIcon.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cff65d8a-1143-4e92-a11b-eb552ed5089a",
+            "Value": {
+                "id": "d9b2eac3-22ec-49ac-ac60-6633b9355e12",
+                "resourcePath": "views\\cff65d8a-1143-4e92-a11b-eb552ed5089a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -516,7 +532,8 @@
         "2c5f7a4c-a23a-4414-b060-bd3d589d376e",
         "5e32e1d4-3fd7-4ed6-a2b0-b22f64a0523c",
         "57049b67-e06f-4e51-ad50-938d92f0e963",
-        "1e1bec81-31ec-4ad9-bd21-33ba336e326d"
+        "1e1bec81-31ec-4ad9-bd21-33ba336e326d",
+        "a9dc4f69-e0e3-475d-864d-a7c2aa69f051"
     ],
     "tutorial": ""
 }

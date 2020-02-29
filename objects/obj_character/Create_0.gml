@@ -11,7 +11,7 @@ damage_percent = 0; // smash-esque health
 stocks = NUM_STOCKS
 
 // character cannot move while in hitstun
-hitstun_ctr = 0;
+hitstun = 0;
 
 // moveset
 curMove = undefined;
