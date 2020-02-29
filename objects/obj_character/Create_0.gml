@@ -3,9 +3,9 @@
 xVel = 0;
 yVel = 0;
 movespeed = 6; // pixels moved per frame
-jumpheight = -32; // pixels to jump upwards when jump pressed
-fallspeed = 2; // "gravity" pulling down on character per frame
-terminalVel = 13;
+jumpheight = -28; // pixels to jump upwards when jump pressed
+fallspeed = 1.4; // "gravity" pulling down on character per frame
+terminalVel = 20;
 weight = 1; // inverse multiplier for how knockback affects the character
 damage_percent = 0; // smash-esque health
 stocks = NUM_STOCKS;
