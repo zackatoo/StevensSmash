@@ -44,7 +44,6 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 			doMove(self, jab);
 		} else {
 			// do aerial
-			// TODO aerial animation
 			doMove(self, aerial);
 		}
 	}
