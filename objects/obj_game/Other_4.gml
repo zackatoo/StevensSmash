@@ -16,7 +16,7 @@ if (room == rm_game)
 		characters[i].idleSprite = spr_Attila_Idle;
 		characters[i].walkSprite = undefined;
 		characters[i].jabSprite = spr_Attila_Jab;
-		characters[i].aerialSprite = spr_Attila_Aerial;
+		characters[i].aerialSprite = spr_Atilla_Aerial;
 		
 		HUD.characters[i] = characters[i];
 	}
