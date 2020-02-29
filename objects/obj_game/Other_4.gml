@@ -9,10 +9,11 @@ if (room == rm_game)
 	for (var i = 0; i < p; i++)
 	{
 		var thisX = playerX + i * playerBuffer;
-		characters[i] = instance_create_depth(thisX, playerY, 0, obj_character);
+		characters[i] = instance_create_depth(thisX, playerY, 0, charGetObject(charIDS[i]));
 		characters[i].controller = controllers[i];
 		characters[i].characterID = charIDS[i];
 		characters[i].stage = stage;
+		
 		characters[i].idleSprite = charGetSprite(charIDS[i], 0);
 		characters[i].walkSprite = charGetSprite(charIDS[i], 1);
 		characters[i].jabSprite = charGetSprite(charIDS[i], 2);
