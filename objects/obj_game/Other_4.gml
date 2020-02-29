@@ -9,5 +9,7 @@ if (room == rm_game)
 		characters[i] = instance_create_depth(thisX, playerY, 0, obj_character);
 		characters[i].controller = controllers[i];
 		characters[i].characterID = charIDS[i];
+		
+		HUD = instance_create_depth(0, 0, 0, obj_game_HUD);
 	}
 }

@@ -8,6 +8,7 @@ charIDS[0] = undefined;
 
 // These are initalized in Room Start event
 characters[0] = undefined;
+HUD = undefined;
 
 // player buffer is the distance between characters when they spawn in
 playerBuffer = 200;

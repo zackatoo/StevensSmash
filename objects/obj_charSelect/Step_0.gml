@@ -76,4 +76,4 @@ for (var i = 0; i < p; i++)
 }
 
 // Activate/Deactivate the banner
-banner.active = numSelected >= 1 && numSelected == p;
+banner.active = numSelected >= 2 && numSelected == p;

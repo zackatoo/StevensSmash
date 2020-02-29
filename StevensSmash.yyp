@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "2474061c-3413-423b-b79e-07a8c5c1482e",
+            "Value": {
+                "id": "8c3a3574-d4ee-4a92-aa4f-489e0766c40e",
+                "resourcePath": "objects\\obj_game_HUD\\obj_game_HUD.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28902de3-7148-4ba3-bb6e-cf401fba98c1",
             "Value": {
                 "id": "a74778e2-6d72-4547-8ffa-611b8c52df8e",

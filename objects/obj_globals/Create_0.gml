@@ -3,6 +3,7 @@
 // these globals are constant
 
 #macro MAX_PLAYERS 4
+#macro NUM_STOCKS 3
 
 // these globals are editable
 
