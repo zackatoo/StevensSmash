@@ -1,3 +1,3 @@
 /// @description 
 
-character = undefined;
+characters[0] = undefined;
