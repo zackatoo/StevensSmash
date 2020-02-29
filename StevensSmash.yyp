@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "00793252-2397-4f5c-a304-ee44c0e12f6e",
-            "Value": {
-                "id": "daa23f86-71e9-4af7-b160-d72aa988362b",
-                "resourcePath": "views\\00793252-2397-4f5c-a304-ee44c0e12f6e.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "052493cb-fa94-4474-b5af-6df018c33309",
             "Value": {
                 "id": "2da53593-c2e1-4789-9860-63aec28e76e5",
@@ -484,14 +476,6 @@
                 "id": "3dc8e339-9795-406e-b571-3053bbd8efda",
                 "resourcePath": "rooms\\rm_studio\\rm_studio.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "db1432e1-2fcd-4ddc-8753-3afae20566e8",
-            "Value": {
-                "id": "e71fa2f2-8052-4191-a335-6c9d39e0ad26",
-                "resourcePath": "shaders\\sh_outline\\sh_outline.yy",
-                "resourceType": "GMShader"
             }
         },
         {
