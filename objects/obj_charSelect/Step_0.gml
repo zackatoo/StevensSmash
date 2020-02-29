@@ -23,9 +23,35 @@ for (var i = 0; i < numTempControllers; i++)
 
 // Updates which selectors are hovering over which characters
 var p = global.numPlayers;
+var numSelected = 0;
 
 for (var i = 0; i < p; i++)
 {
+	// Update choosing character / starting game
+	if (controllers[i].pressA)
+	{
+		if (banner.active && position_meeting(selectors[i].x, selectors[i].y, banner))
+		{
+			game = instance_create_depth(0, 0, 0, obj_game);
+			game.controllers = controllers;
+			
+			for (var j = 0; j < p; j++)
+			{
+				game.charIDS[j] = selectors[j].selecting;
+			}
+			
+			room_goto(rm_game);
+			exit;
+		}
+		else if (selectors[i].selecting != -1)
+		{
+			selectors[i].selected = true;
+		}
+	}
+	else if (controllers[i].pressB)
+	{
+		selectors[i].selected = false;
+	}
 	
 	// Update selected
 	if (!selectors[i].selected) 
@@ -43,4 +69,11 @@ for (var i = 0; i < p; i++)
 			}
 		}
 	}
+	else
+	{
+		numSelected++;
+	}
 }
+
+// Activate/Deactivate the banner
+banner.active = numSelected >= 1 && numSelected == p;

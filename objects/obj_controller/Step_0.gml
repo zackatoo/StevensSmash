@@ -41,8 +41,8 @@ if (active)
 		pressPadLeft = keyboard_check_pressed(keybind.keyboard_pad_left);
 		pressPadRight = keyboard_check_pressed(keybind.keyboard_pad_right);
 		
-		pressEscape = keyboard_check_pressed(keybind.keyboard_escape);
-		pressEnter = keyboard_check_pressed(keybind.keyboard_enter);
-		pressBack = keyboard_check_pressed(keybind.keyboard_back);
+		pressStart = keyboard_check_pressed(keybind.keyboard_escape);
+		pressA = keyboard_check_pressed(keybind.keyboard_enter);
+		pressB = keyboard_check_pressed(keybind.keyboard_back);
 	}
 }

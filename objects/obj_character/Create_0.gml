@@ -19,7 +19,8 @@ jab = undefined;
 aerial = undefined;
 smash = undefined;
 
-// misc stuff to be set by game
+// misc stuff to be set by game object
 controller = undefined; // handed to character by game object
+characterID = 0;		// the ID of the character from charGetNumber
 mainSprite = undefined; // set this to idle animation
 stage = undefined;
