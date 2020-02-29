@@ -28,5 +28,3 @@ stage = undefined;
 // sprites set by game object
 idleSprite = undefined;
 walkSprite = undefined;
-jabSprite = undefined;
-aerialSprite = undefined;
