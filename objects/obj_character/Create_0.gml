@@ -10,6 +10,12 @@ weight = 1; // inverse multiplier for how knockback affects the character
 damage_percent = 0; // smash-esque health
 stocks = NUM_STOCKS;
 
+// respawn coordinates
+respawnX = x;
+respawnY = y;
+invincibility = 0;
+invincibleTrans = 0.05;
+
 // character cannot move while in hitstun
 hitstun = 0;
 

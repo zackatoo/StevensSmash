@@ -46,9 +46,31 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 	}
 }
 
+if (invincibility > 0) {
+	invincibility--;
+	image_alpha -= invincibleTrans;
+	if (image_alpha < 0.5) {
+		invincibleTrans = -invincibleTrans;
+	} else if (image_alpha > 1) {
+		invincibleTrans = -invincibleTrans;
+		image_alpha = 1;
+	}
+} else {
+	image_alpha = 1;
+}
+
 if (xVel < 0) image_xscale = 1;
 else if (xVel > 0) image_xscale = -1;
 
 // apply velocities
 x += xVel;
 y += yVel;
+
+if (x < 0 || x > room_width || y < 0 || y > room_height) {
+	// die
+	stocks--;
+	damage_percent = 0;
+	x = respawnX;
+	y = respawnY;
+	invincibility = room_speed;
+}
