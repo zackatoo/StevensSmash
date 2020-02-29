@@ -8,7 +8,7 @@ jumpheight = 128; // pixels to jump upwards when jump pressed
 fallspeed = 8; // "gravity" pulling down on character per frame
 weight = 1; // inverse multiplier for how knockback affects the character
 damage_percent = 0; // smash-esque health
-stocks = NUM_STOCKS
+stocks = NUM_STOCKS;
 
 // character cannot move while in hitstun
 hitstun = 0;
@@ -28,5 +28,3 @@ stage = undefined;
 // sprites set by game object
 idleSprite = undefined;
 walkSprite = undefined;
-jabSprite = undefined;
-aerialSprite = undefined;

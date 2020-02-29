@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "070598bb-0fc3-466b-92a0-3dc7c2b28d4e",
+            "Value": {
+                "id": "26111917-96f8-4b12-98d1-defaae226d6b",
+                "resourcePath": "objects\\obj_attila\\obj_attila.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0822589c-ea24-4c44-a5ad-8f25227561c3",
             "Value": {
                 "id": "0b5b4e63-395e-49b4-9145-667778e579e5",
@@ -55,10 +63,26 @@
             }
         },
         {
+            "Key": "0ae4b969-1aa9-43d7-a378-51f60e85274d",
+            "Value": {
+                "id": "05c12e24-655c-4b87-8b91-13b7af876a86",
+                "resourcePath": "objects\\attila_nair\\attila_nair.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e46ed29-e5b1-4d4f-b70f-1a67d0595c7d",
             "Value": {
                 "id": "d3b0c4f6-480a-4977-a59b-d11363f61029",
                 "resourcePath": "objects\\obj_stage\\obj_stage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "13e58d92-b066-48a8-ac54-9838b7cbbf64",
+            "Value": {
+                "id": "8253319c-b65f-455c-8fb7-f788b471a192",
+                "resourcePath": "objects\\attila_smash\\attila_smash.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -247,6 +271,14 @@
             }
         },
         {
+            "Key": "7f195ecc-0bdd-46f1-8f67-278b9af7f459",
+            "Value": {
+                "id": "0c61fbc5-0e09-4761-8245-1224441d75f4",
+                "resourcePath": "views\\7f195ecc-0bdd-46f1-8f67-278b9af7f459.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "82890269-fb64-43b4-820e-d68c84082b12",
             "Value": {
                 "id": "d99fad59-a494-4383-a1b0-e296ca2f8a9c",
@@ -260,6 +292,14 @@
                 "id": "f7cec186-885e-4309-a9d6-2ba0b27d5b75",
                 "resourcePath": "views\\8c183ea3-fd2d-4213-bd70-c58f3430b7dc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8fc699aa-33d1-4648-a2ae-db3356390c48",
+            "Value": {
+                "id": "7ec963df-4a74-42fe-8f2e-936b0313dc82",
+                "resourcePath": "objects\\attila_jab\\attila_jab.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -348,6 +388,14 @@
                 "id": "3e46f89f-aa4f-4858-9769-780c16538bde",
                 "resourcePath": "sprites\\spr_testModel\\spr_testModel.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c96172f9-4acc-4e96-9aef-95eb5ed4fcfb",
+            "Value": {
+                "id": "3374902f-a4d9-4f9b-af44-c01c8badce0e",
+                "resourcePath": "views\\c96172f9-4acc-4e96-9aef-95eb5ed4fcfb.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
