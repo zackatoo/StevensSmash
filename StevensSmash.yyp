@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "052493cb-fa94-4474-b5af-6df018c33309",
+            "Value": {
+                "id": "2da53593-c2e1-4789-9860-63aec28e76e5",
+                "resourcePath": "sprites\\spr_Atilla_Aerial\\spr_Atilla_Aerial.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0822589c-ea24-4c44-a5ad-8f25227561c3",
             "Value": {
                 "id": "0b5b4e63-395e-49b4-9145-667778e579e5",
@@ -159,6 +167,14 @@
             }
         },
         {
+            "Key": "7a395b74-0af4-450c-90f2-0cd73b099c55",
+            "Value": {
+                "id": "7ff9ae94-b912-40ed-b351-fb897bacc660",
+                "resourcePath": "sprites\\spr_Attila_Idle\\spr_Attila_Idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7ceb8264-d1d1-4c49-a122-adde6f6f9664",
             "Value": {
                 "id": "3b542124-5e99-4638-b236-34ae9cbb648b",
@@ -223,6 +239,14 @@
             }
         },
         {
+            "Key": "a91f0b53-c422-498f-a868-c5157b42509b",
+            "Value": {
+                "id": "99146666-9006-4d7f-931e-6a561ccd1024",
+                "resourcePath": "sprites\\spr_Attila_Jab\\spr_Attila_Jab.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ac1f2dfb-90b5-4e13-9523-24e98866ae95",
             "Value": {
                 "id": "ceb0a465-566a-4217-bd32-98fe52451b27",
@@ -284,6 +308,14 @@
                 "id": "62fce187-58cd-4af2-a203-bf67a88fdd53",
                 "resourcePath": "views\\d1965d54-5e37-4750-8974-76132e2414d6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d6753859-d4c7-4a2e-b11a-506f95e29f39",
+            "Value": {
+                "id": "c95bc331-fb22-462f-8baf-1fbd3e53ce6b",
+                "resourcePath": "notes\\EACH CHARS MOVESET.yy",
+                "resourceType": "GMNotes"
             }
         },
         {
