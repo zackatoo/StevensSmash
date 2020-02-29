@@ -11,6 +11,9 @@ characters[0] = undefined;
 HUD = undefined;
 stage = undefined;
 
+winnerPlayer = 0;
+winnerID = 0;
+
 // player buffer is the distance between characters when they spawn in
 playerBuffer = 200;
 playerWidth = playerBuffer * (global.numPlayers - 1);
