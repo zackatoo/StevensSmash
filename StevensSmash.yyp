@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0dd91821-0b51-45b2-a86a-c57fb6beca46",
+            "Value": {
+                "id": "b2109352-02e4-4e5b-a58b-e8b37e49c68f",
+                "resourcePath": "sprites\\spr_Goose\\spr_Goose.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "143e4827-9d91-42b9-9303-b4e20a4475a9",
             "Value": {
                 "id": "32eec4c9-b7db-489f-8877-51fc290a10f5",
@@ -372,6 +380,14 @@
                 "id": "80ed4a6e-4023-43aa-a4a1-f638ee2c98ac",
                 "resourcePath": "fonts\\fnt_medium\\fnt_medium.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "e95ab9d9-a0e7-4782-b2e6-ded809699cfc",
+            "Value": {
+                "id": "c655b24a-2f1f-4048-bec4-97751a5f61f5",
+                "resourcePath": "sprites\\spr_Attila_Walk\\spr_Attila_Walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
