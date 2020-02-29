@@ -10,9 +10,17 @@ for (var i = 0; i < p; i++)
 	var thisX = hudX + hudBuffer * i;
 	draw_sprite_ext(spr_characterIcon, characters[i].characterID, thisX, hudY, 0.6, 0.6, 0, c_white, 1);
 	
-	var percent = characters[i].damage_percent * 2.55;
-	var damageColor = make_color_rgb(255, 255 - percent, 255 - percent);
-	draw_text_outline(hudX, hudY, c_black, damageColor, string(characters[i].damage_percent) + "%");
+	if (characters[i].stocks > 0)
+	{
+		var percent = characters[i].damage_percent * 2.55;
+		var damageColor = make_color_rgb(255, 255 - percent, 255 - percent);
+		draw_text_outline(hudX, hudY, c_black, damageColor, string(characters[i].damage_percent) + "%");
+	}
 	
 	draw_text_outline(hudX, hudY + 50, c_black, c_white, charGetName(characters[i].characterID));
+	
+	for (var stock = 0; i < characters[i].stocks; i++)
+	{
+		draw_sprite(spr_stock, 0, hudX + stock * 16, hudY + 100);
+	}
 }

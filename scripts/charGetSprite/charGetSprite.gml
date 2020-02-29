@@ -10,7 +10,7 @@ if (argument1 == 0)
 		case 0: return spr_Attila_Idle;
 		case 1: return spr_Attila_Idle;
 		case 2: return spr_Attila_Idle;
-		case 3: return spr_Attila_Idle;
+		case 3: return spr_Goose_Idle;
 		default: return spr_testModel;
 	}
 }
