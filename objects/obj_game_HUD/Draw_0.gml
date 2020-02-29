@@ -14,13 +14,13 @@ for (var i = 0; i < p; i++)
 	{
 		var percent = characters[i].damage_percent * 2.55;
 		var damageColor = make_color_rgb(255, 255 - percent, 255 - percent);
-		draw_text_outline(hudX, hudY, c_black, damageColor, string(characters[i].damage_percent) + "%");
+		draw_text_outline(thisX, hudY, c_black, damageColor, string(characters[i].damage_percent) + "%");
 	}
 	
-	draw_text_outline(hudX, hudY + 50, c_black, c_white, charGetName(characters[i].characterID));
+	draw_text_outline(thisX, hudY + 50, c_black, c_white, charGetName(characters[i].characterID));
 	
 	for (var stock = 0; stock < characters[i].stocks; stock++)
 	{
-		draw_sprite(spr_stock, 0, (hudX + stock * 16) - 30, hudY + 70);
+		draw_sprite(spr_stock, 0, (thisX + stock * 16) - 30, hudY + 70);
 	}
 }

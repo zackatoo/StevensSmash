@@ -1,3 +1,3 @@
-/// @description sets deadzone
+/// @description 
 
 gamepad_set_axis_deadzone(device, 0.25);
