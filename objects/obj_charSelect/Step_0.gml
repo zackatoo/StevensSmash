@@ -76,4 +76,6 @@ for (var i = 0; i < p; i++)
 }
 
 // Activate/Deactivate the banner
+var oldBanner = banner.active;
 banner.active = numSelected >= 1 && numSelected == p;
+if (!oldBanner && banner.active) audio_play_sound(snd_finished_selections, 10, false);

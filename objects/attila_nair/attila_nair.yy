@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "attila_nair",
     "eventList": [
-        
+        {
+            "id": "56dc2b95-08d2-4eec-bdb8-cf69c694f543",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "0ae4b969-1aa9-43d7-a378-51f60e85274d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
