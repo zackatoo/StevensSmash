@@ -1,14 +1,14 @@
 {
-    "id": "0ae4b969-1aa9-43d7-a378-51f60e85274d",
+    "id": "b5410cf0-b218-4474-9170-c041f1ad1b90",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "attila_nair",
+    "name": "obj_Favardin",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "d1226b46-b668-41eb-9dae-0e33db46b561",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "36757204-cf18-44aa-a1ea-cf5ca67e5011",
     "visible": true
 }

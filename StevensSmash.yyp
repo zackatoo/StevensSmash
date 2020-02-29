@@ -33,7 +33,7 @@
         {
             "Key": "052493cb-fa94-4474-b5af-6df018c33309",
             "Value": {
-                "id": "2da53593-c2e1-4789-9860-63aec28e76e5",
+                "id": "1bce02cc-5b35-4b54-901b-f9e996d5e7d8",
                 "resourcePath": "sprites\\spr_Atilla_Aerial\\spr_Atilla_Aerial.yy",
                 "resourceType": "GMSprite"
             }
@@ -68,6 +68,14 @@
                 "id": "05c12e24-655c-4b87-8b91-13b7af876a86",
                 "resourcePath": "objects\\attila_nair\\attila_nair.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0dd91821-0b51-45b2-a86a-c57fb6beca46",
+            "Value": {
+                "id": "b07809b3-6301-4841-98d7-b3a859d7bf8a",
+                "resourcePath": "sprites\\spr_Goose\\spr_Goose.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -108,6 +116,14 @@
                 "id": "32569207-56dc-4cfc-9f65-5342da727c89",
                 "resourcePath": "scripts\\doMove\\doMove.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "216a9191-b5d6-40d3-a29b-8f0a36c06797",
+            "Value": {
+                "id": "a9da0639-7d80-42ba-9482-2af36c902769",
+                "resourcePath": "sprites\\spr_Goose_Walk\\spr_Goose_Walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -164,6 +180,22 @@
                 "id": "0bcfe8f8-868b-41e6-ae78-7a222513f347",
                 "resourcePath": "views\\33bcf86e-c85d-428d-9318-30fffec2a400.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "36757204-cf18-44aa-a1ea-cf5ca67e5011",
+            "Value": {
+                "id": "4be1f63d-d285-4ad4-b518-cbb6de6170d5",
+                "resourcePath": "sprites\\spr_Favardin\\spr_Favardin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "39697e73-12e0-4205-8fff-9cd784394f75",
+            "Value": {
+                "id": "c9fd7f45-73d3-41d4-b484-5b9ed539a131",
+                "resourcePath": "sprites\\spr_Attila_Special\\spr_Attila_Special.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -263,6 +295,14 @@
             }
         },
         {
+            "Key": "7cce1c63-2c1c-4284-b996-fa96e9facbd4",
+            "Value": {
+                "id": "0eb3ccd9-2cd1-48b2-84d7-ad26d0addc63",
+                "resourcePath": "views\\7cce1c63-2c1c-4284-b996-fa96e9facbd4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7ceb8264-d1d1-4c49-a122-adde6f6f9664",
             "Value": {
                 "id": "3b542124-5e99-4638-b236-34ae9cbb648b",
@@ -276,6 +316,14 @@
                 "id": "0c61fbc5-0e09-4761-8245-1224441d75f4",
                 "resourcePath": "views\\7f195ecc-0bdd-46f1-8f67-278b9af7f459.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "80ef24e3-558c-415b-b7d6-096725a2ef0e",
+            "Value": {
+                "id": "d0c162fa-4e7f-4582-ab27-a1eea6b7a767",
+                "resourcePath": "sprites\\spr_Goose_Special\\spr_Goose_Special.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -375,6 +423,14 @@
             }
         },
         {
+            "Key": "b5410cf0-b218-4474-9170-c041f1ad1b90",
+            "Value": {
+                "id": "be182e77-3ec8-49af-81dd-54ba0f74009a",
+                "resourcePath": "objects\\obj_Favardin\\obj_Favardin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b7195ea3-7210-4c38-b342-f0d06c0b4c36",
             "Value": {
                 "id": "3f71351c-d5a9-4730-9513-cf6758431a1c",
@@ -383,11 +439,27 @@
             }
         },
         {
+            "Key": "bcc37cc1-6024-4a2e-8373-ece98c239128",
+            "Value": {
+                "id": "8e65283e-b88c-4ccc-94f2-2e9df6a481cb",
+                "resourcePath": "objects\\obj_Honk\\obj_Honk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bfb64661-5f62-4bc5-90a5-eaa4e1dc7bdc",
             "Value": {
                 "id": "5665ccd7-d623-4b41-983d-9f0ee6cee42e",
                 "resourcePath": "views\\bfb64661-5f62-4bc5-90a5-eaa4e1dc7bdc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c313415f-f4ca-4c6a-8ebc-b25582c0ee5f",
+            "Value": {
+                "id": "d818fa2f-49b0-455d-b57d-73a7bf127010",
+                "resourcePath": "sprites\\spr_Goose_Aerial\\spr_Goose_Aerial.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -519,11 +591,35 @@
             }
         },
         {
+            "Key": "e2893bcc-a38c-49a9-9c97-8ce4684c0d28",
+            "Value": {
+                "id": "6c8f87af-e13a-4dec-9404-88144d79ea29",
+                "resourcePath": "views\\e2893bcc-a38c-49a9-9c97-8ce4684c0d28.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e43e5eda-4c11-4efb-9042-bdbcdf8731dc",
+            "Value": {
+                "id": "c55b1e0b-71b1-4af0-b53e-c45d04fc6598",
+                "resourcePath": "views\\e43e5eda-4c11-4efb-9042-bdbcdf8731dc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e64765ab-ea8a-4b3a-be3f-51bb6b49188c",
             "Value": {
                 "id": "80ed4a6e-4023-43aa-a4a1-f638ee2c98ac",
                 "resourcePath": "fonts\\fnt_medium\\fnt_medium.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "e8b9b73a-ebd5-4e27-8a5d-bcda70598e7f",
+            "Value": {
+                "id": "3fb1ad82-a366-47ef-b184-43b2d75813bc",
+                "resourcePath": "sprites\\spr_Honk\\spr_Honk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
