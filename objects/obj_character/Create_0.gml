@@ -12,4 +12,14 @@ damage_percent = 0; // smash-esque health
 // character cannot move while in hitstun
 hitstun_ctr = 0;
 
+// moveset
+curMove = undefined;
+// below is set in child class
+jab = undefined;
+aerial = undefined;
+smash = undefined;
+
+// misc stuff to be set by game
 controller = undefined; // handed to character by game object
+mainSprite = undefined; // set this to idle animation
+stage = undefined;
