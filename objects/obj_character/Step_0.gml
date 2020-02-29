@@ -10,7 +10,7 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 	hitstun -= 1; // decrease hitstun by one every frame
 	if (hitstun == 0) {
 		curMove = undefined; // stop doing move
-		sprite_index = mainSprite; // jank af way to stop move animation
+		sprite_index = idleSprite; // jank af way to stop move animation
 	}
 } else {
 	// movement
