@@ -41,3 +41,5 @@ pressBack = false;
 
 vert = 0;
 horz = 0;
+
+alarm[1] = 1;
