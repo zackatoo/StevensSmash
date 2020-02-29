@@ -23,5 +23,10 @@ smash = undefined;
 // misc stuff to be set by game object
 controller = undefined; // handed to character by game object
 characterID = 0;		// the ID of the character from charGetNumber
-mainSprite = undefined; // set this to idle animation
 stage = undefined;
+
+// sprites set by game object
+idleSprite = undefined;
+walkSprite = undefined;
+jabSprite = undefined;
+aerialSprite = undefined;

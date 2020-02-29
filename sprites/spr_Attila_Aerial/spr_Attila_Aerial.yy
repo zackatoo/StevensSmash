@@ -2,7 +2,7 @@
     "id": "052493cb-fa94-4474-b5af-6df018c33309",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_Atilla_Aerial",
+    "name": "spr_Attila_Aerial",
     "For3D": false,
     "HTile": false,
     "VTile": false,
