@@ -3,7 +3,7 @@ var onstage = place_meeting(x, y, stage);
 if (onstage) {
 	yVel = 0;
 } else {
-	yVel -= fallspeed;
+	yVel += fallspeed;
 }
 
 if (hitstun > 0) { // true when character is flying through air/hit by move
