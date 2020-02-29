@@ -183,11 +183,27 @@
             }
         },
         {
+            "Key": "51571b8b-f92a-439d-a009-ab73c60b2b6d",
+            "Value": {
+                "id": "3ebfed82-0bfd-4079-a47e-1436d0bfab12",
+                "resourcePath": "objects\\obj_play_banner\\obj_play_banner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "57049b67-e06f-4e51-ad50-938d92f0e963",
             "Value": {
                 "id": "6e09940d-61e0-4a69-9116-aa27301c7837",
                 "resourcePath": "scripts\\playerGetColor\\playerGetColor.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5d4fafc7-a813-4fb3-a432-bbfc96a5e2d5",
+            "Value": {
+                "id": "cc0927e6-4268-4010-b488-2888a439512e",
+                "resourcePath": "sprites\\spr_play_banner1\\spr_play_banner1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
