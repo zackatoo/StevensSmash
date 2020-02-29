@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "eada46d8-4fc1-49b1-b06d-9c81fd9d96fc",
+            "Value": {
+                "id": "2fbf9586-8615-4b1c-ae45-cb1fdd319a34",
+                "resourcePath": "sprites\\finaldestination\\finaldestination.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f3851c18-5e58-4a60-8379-7624b76e05a8",
             "Value": {
                 "id": "030cd47b-e687-4149-9a31-7e2b77c161f9",
