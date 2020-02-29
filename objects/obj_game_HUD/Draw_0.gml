@@ -19,8 +19,8 @@ for (var i = 0; i < p; i++)
 	
 	draw_text_outline(hudX, hudY + 50, c_black, c_white, charGetName(characters[i].characterID));
 	
-	for (var stock = 0; i < characters[i].stocks; i++)
+	for (var stock = 0; stock < characters[i].stocks; stock++)
 	{
-		draw_sprite(spr_stock, 0, hudX + stock * 16, hudY + 100);
+		draw_sprite(spr_stock, 0, (hudX + stock * 16) - 30, hudY + 70);
 	}
 }
