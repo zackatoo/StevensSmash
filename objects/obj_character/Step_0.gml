@@ -49,9 +49,6 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 if (xVel < 0) image_xscale = 1;
 else if (xVel > 0) image_xscale = -1;
 
-if (onstage && abs(xVel) > 0 && image_index != walkSprite) image_index = walkSprite;
-else if (image_index != idleSprite) image_index = idleSprite;
-
 // apply velocities
 x += xVel;
 y += yVel;
