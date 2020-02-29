@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "cf992b4d-4dff-4f24-a4ac-083048581591",
+            "Value": {
+                "id": "b3376143-b821-47e1-9a0c-d5c52212db15",
+                "resourcePath": "sprites\\spr_play_banner\\spr_play_banner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d1965d54-5e37-4750-8974-76132e2414d6",
             "Value": {
                 "id": "62fce187-58cd-4af2-a203-bf67a88fdd53",
