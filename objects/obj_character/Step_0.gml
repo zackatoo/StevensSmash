@@ -21,9 +21,15 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 	} else if (controller.vert < 0 && onstage) {
 		// crouch
 		// TODO: crouch animation
-	} else if (onstage) {
+	} else {
 		// move left/right
 		 // TODO: see if causes bug when hit
+		 xVel = controller.horz * movespeed;
+		 if (xVel != 0) {
+			 sprite_index = walkSprite;
+		 } else {
+			 sprite_index = idleSprite;
+		 }
 	}
 	
 	// attacks
@@ -40,7 +46,6 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 	}
 }
 
-xVel = controller.horz * movespeed;
 if (xVel < 0) image_xscale = 1;
 else if (xVel > 0) image_xscale = -1;
 

@@ -7,4 +7,3 @@ knockbackX = 5;
 knockbackY = 3;
 hitstun = 5;
 moveLag = 3;
-sprite = undefined;
