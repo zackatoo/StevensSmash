@@ -30,6 +30,9 @@ for (var X = x + argument1.hitboxStartX; X <= argument1.hitboxEndX; X++) {
 					} else {
 						enemy.xVel -= argument1.knockbackX;
 					}
+					
+					// if they are in a move, stop it
+					enemy.curMove = undefined;
 				}
 			}
 		}

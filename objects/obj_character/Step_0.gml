@@ -17,6 +17,12 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 		curMove = undefined; // stop doing move
 		sprite_index = idleSprite; // jank af way to stop move animation
 	}
+	
+	if (curMove != undefined) {
+		// if currently in move
+		
+		// keep hitbox out from startframe to endframe
+	}
 } else {
 	// movement
 	if (controller.pressUp && onstage) { // only one jump for now
