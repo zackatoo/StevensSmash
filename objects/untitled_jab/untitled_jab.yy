@@ -1,10 +1,19 @@
 {
-    "id": "13e58d92-b066-48a8-ac54-9838b7cbbf64",
+    "id": "88e6cffa-cfa4-453e-a73e-38f8b45849b9",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "attila_smash",
+    "name": "untitled_jab",
     "eventList": [
-        
+        {
+            "id": "87d79c72-c6cd-4b46-bb01-65905424f3b2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "88e6cffa-cfa4-453e-a73e-38f8b45849b9"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "39697e73-12e0-4205-8fff-9cd784394f75",
-    "visible": false
+    "spriteId": "c313415f-f4ca-4c6a-8ebc-b25582c0ee5f",
+    "visible": true
 }

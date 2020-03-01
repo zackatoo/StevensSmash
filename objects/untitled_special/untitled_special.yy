@@ -1,8 +1,8 @@
 {
-    "id": "13e58d92-b066-48a8-ac54-9838b7cbbf64",
+    "id": "adf52636-2a0c-4f98-9ac8-38a4e8e6a347",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "attila_smash",
+    "name": "untitled_special",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "39697e73-12e0-4205-8fff-9cd784394f75",
+    "spriteId": "80ef24e3-558c-415b-b7d6-096725a2ef0e",
     "visible": false
 }

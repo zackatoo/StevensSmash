@@ -1,10 +1,19 @@
 {
-    "id": "13e58d92-b066-48a8-ac54-9838b7cbbf64",
+    "id": "f90061dd-d9b7-4c13-af9a-e293067c999f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "attila_smash",
+    "name": "untitled_nair",
     "eventList": [
-        
+        {
+            "id": "d4b6c4ca-d7d0-44ce-b52a-e3cbc9927962",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "f90061dd-d9b7-4c13-af9a-e293067c999f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "39697e73-12e0-4205-8fff-9cd784394f75",
+    "spriteId": "c313415f-f4ca-4c6a-8ebc-b25582c0ee5f",
     "visible": false
 }
