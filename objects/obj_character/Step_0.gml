@@ -13,15 +13,17 @@ if (onstage) {
 
 if (hitstun > 0) { // true when character is flying through air/hit by move
 	hitstun -= 1; // decrease hitstun by one every frame
-	if (hitstun == 0) {
+	if (hitstun == 0 and curMove != undefined) {
 		curMove = undefined; // stop doing move
+		ds_list_clear(hit_enemies);
 		sprite_index = idleSprite; // jank af way to stop move animation
-	}
-	
-	if (curMove != undefined) {
+	} else if (curMove != undefined) {
 		// if currently in move
-		
-		// keep hitbox out from startframe to endframe
+		if (curMove.curFrame >= curMove.startFrame and curMove.curFrame <= curMove.endFrame) {
+			// keep hitbox out from startframe to endframe
+			doHitbox(self, curMove, hit_enemies);
+		}
+		curMove.curFrame++;
 	}
 } else {
 	// movement
