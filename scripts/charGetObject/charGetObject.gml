@@ -5,7 +5,7 @@
 switch (argument0)
 {
 	case 0: return obj_attila;
-	case 1: return obj_attila;
+	case 1: return obj_donald;
 	case 2: return obj_attila;
 	case 3: return obj_untitled;
 	default: return obj_character;
