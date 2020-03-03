@@ -88,8 +88,7 @@ if (x < 0 || x > room_width || y < 0 || y > room_height) {
 		invincibility = room_speed * 2;
 	} else {
 		// Put it somewhere else
-		x = -200;
-		y = -200;
+		visible = false;
 		dead = true;
 	}
 }
