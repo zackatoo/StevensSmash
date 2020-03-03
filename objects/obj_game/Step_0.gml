@@ -34,5 +34,6 @@ else
 		characters[aliveID].dead = true;
 		
 		alarm[7] = room_speed;
+		isGameRoom = false;
 	}
 }

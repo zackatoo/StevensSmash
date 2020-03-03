@@ -13,6 +13,7 @@ stocks = NUM_STOCKS;
 // respawn coordinates
 respawnX = x;
 respawnY = y;
+inRespawn = false;
 invincibility = 0;
 invincibleTrans = 0.05;
 dead = false;
