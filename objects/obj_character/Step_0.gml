@@ -78,7 +78,7 @@ else if (xVel > 0) image_xscale = -1;
 x += xVel;
 y += yVel;
 
-if (x < 0 || x > room_width || y < 0 || y > room_height) {
+if (x < -deathBarrier || x > room_width + deathBarrier || y < -deathBarrier || y > room_height + deathBarrier) {
 	// die
 	stocks--;
 	if (stocks > 0) {
@@ -86,6 +86,8 @@ if (x < 0 || x > room_width || y < 0 || y > room_height) {
 		inRespawn = true;
 		x = respawnX;
 		y = respawnY;
+		xVel = 0;
+		yVel = 0;
 		invincibility = room_speed * 4;
 		alarm[7] = room_speed * 2;
 		visible = false;
@@ -93,6 +95,8 @@ if (x < 0 || x > room_width || y < 0 || y > room_height) {
 		// Put it somewhere else
 		x = -200;
 		y = -200;
+		xVel = 0;
+		yVel = 0;
 		dead = true;
 		visible = false;
 	}

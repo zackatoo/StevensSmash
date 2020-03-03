@@ -18,6 +18,9 @@ invincibility = 0;
 invincibleTrans = 0.05;
 dead = false;
 
+// Death barrier outside the room
+deathBarrier = 100;
+
 // character cannot move while in hitstun
 hitstun = 0;
 hit_enemies = ds_list_create();

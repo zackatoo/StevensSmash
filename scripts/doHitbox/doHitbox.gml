@@ -14,6 +14,7 @@ var endY = max(y + argument1.hitboxStartY, y + argument1.hitboxEndY);
 //show_debug_message(string(startX) + " X " + string(endX));
 //show_debug_message(string(startY) + " Y " + string(endY));
 
+/*
 // check on x not whole box
 for (var offset = 0; offset < endX-startX; offset++) {
 //for (var X = startX; X <= endX; X++) {
@@ -54,3 +55,35 @@ for (var offset = 0; offset < endX-startX; offset++) {
 		//}
 	}
 }
+*/
+
+// collision rectangle method
+var enemyList = ds_list_create();
+var numEnemies = collision_rectangle_list(startX, startY, endX, endY, obj_character, false, true, enemyList, false);
+if (numEnemies > 0) {
+	
+	for (var i = 0; i < numEnemies; i++) {
+		var enemy = enemyList[|i];
+		if (enemy.invincibility == 0) {
+			enemy.hitstun = mov_hitstun;
+			enemy.damage_percent += mov_percent;
+					
+			enemy.yVel += mov_yBack;
+					
+			// use direction of character to choose x direction
+			if (argument0.image_xscale > 0) {
+				enemy.xVel -= mov_xBack;
+			} else {
+				enemy.xVel += mov_xBack;
+			}
+					
+			// if they are in a move, stop it
+			if (enemy.curMove != undefined) {
+				instance_destroy(enemy.curMove);
+			}
+			enemy.curMove = undefined;
+		}
+	}
+}
+
+ds_list_destroy(enemyList);
