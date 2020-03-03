@@ -94,5 +94,6 @@ if (x < 0 || x > room_width || y < 0 || y > room_height) {
 		x = -200;
 		y = -200;
 		dead = true;
+		visible = false;
 	}
 }

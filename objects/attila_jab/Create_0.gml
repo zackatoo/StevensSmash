@@ -13,5 +13,5 @@ endFrame = 13;
 
 hitboxStartX = -70;
 hitboxStartY = -25;
-hitboxEndX = -60;
+hitboxEndX = -20;
 hitboxEndY = -15;

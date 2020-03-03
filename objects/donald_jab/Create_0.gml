@@ -11,7 +11,7 @@ moveLag = 15; // total length of move
 startFrame = 5;
 endFrame = 13;
 
-hitboxStartX = -20;
-hitboxStartY = -5;
-hitboxEndX = -10;
-hitboxEndY = 5;
+hitboxStartX = -70;
+hitboxStartY = -25;
+hitboxEndX = -20;
+hitboxEndY = -15;
