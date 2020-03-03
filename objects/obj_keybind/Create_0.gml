@@ -32,4 +32,4 @@ gamepad_right = gp_padr;
 gamepad_escape = gp_start;
 gamepad_enter = gp_face1;
 gamepad_back = gp_face2;
-gamepad_jump = gp_face3;
+gamepad_jump = gp_face4;
