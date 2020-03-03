@@ -1,7 +1,18 @@
 // arg0: self, arg1: move, arg2: hit_enemies list
 var hit_enemies = argument2;
-for (var X = x + argument1.hitboxStartX; X <= argument1.hitboxEndX; X++) {
-	for (var Y = y + argument1.hitboxStartY; Y <= argument1.hitboxEndY; Y++) {
+
+var startX = min(x + argument1.hitboxStartX * argument0.image_xscale, x + argument1.hitboxEndX * argument0.image_xscale);
+var endX = max(x + argument1.hitboxStartX * argument0.image_xscale, x + argument1.hitboxEndX * argument0.image_xscale);
+var startY = min(y + argument1.hitboxStartY, y + argument1.hitboxEndY);
+var endY = max(y + argument1.hitboxStartY, y + argument1.hitboxEndY);
+
+//show_debug_message(string(startX) + " X " + string(endX));
+//show_debug_message(string(startY) + " Y " + string(endY));
+
+// check on x not whole box
+for (var X = startX; X <= endX; X++) {
+	for (var Y = startY; Y <= endY; Y++) {
+		//show_debug_message(string(X) + " " + string(Y));
 		var enemies_at_pos = instance_place_list(X, Y, obj_character, hit_enemies, false);
 		if (!ds_list_empty(enemies_at_pos)) {
 			// for each enemy hit by attack 
@@ -24,6 +35,7 @@ for (var X = x + argument1.hitboxStartX; X <= argument1.hitboxEndX; X++) {
 					}
 					
 					// if they are in a move, stop it
+					instance_destroy(enemy.curMove);
 					enemy.curMove = undefined;
 				}
 			}

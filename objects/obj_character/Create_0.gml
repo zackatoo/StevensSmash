@@ -28,6 +28,10 @@ jab = undefined;
 aerial = undefined;
 smash = undefined;
 
+jabObj = undefined;
+aerialObj = undefined;
+smashObj = undefined;
+
 // misc stuff to be set by game object
 controller = undefined; // handed to character by game object
 characterID = 0;		// the ID of the character from charGetNumber
