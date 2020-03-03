@@ -16,4 +16,15 @@ if (room == rm_game)
 		
 		HUD.characters[i] = characters[i];
 	}
+	
+	isGameRoom = true;
+} 
+else if (room == rm_win) 
+{
+	isWinRoom = true;
+	alarm[8] = room_speed;
+}
+else
+{
+	instance_destroy();
 }
