@@ -25,7 +25,6 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 			// keep hitbox out from startframe to endframe
 			doHitbox(self, curMove, hit_enemies);
 		}
-		
 	}
 } else {
 	// movement

@@ -3,8 +3,8 @@
 event_inherited(); // runs parent create
 
 percent = 5;
-knockbackX = 10;
-knockbackY = 5;
+knockbackX = 30;
+knockbackY = -10;
 hitstun = 12;
 
 moveLag = 15; // total length of move
