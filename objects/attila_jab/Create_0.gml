@@ -3,7 +3,7 @@
 event_inherited(); // runs parent create
 
 percent = 5;
-knockbackX = 30;
+knockbackX = 10;
 knockbackY = -10;
 hitstun = 12;
 

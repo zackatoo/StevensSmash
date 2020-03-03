@@ -88,8 +88,8 @@ if (x < -deathBarrier || x > room_width + deathBarrier || y < -deathBarrier || y
 		y = respawnY;
 		xVel = 0;
 		yVel = 0;
-		invincibility = room_speed * 4;
-		alarm[7] = room_speed * 2;
+		invincibility = room_speed * 3;
+		alarm[7] = room_speed;
 		visible = false;
 	} else {
 		// Put it somewhere else
