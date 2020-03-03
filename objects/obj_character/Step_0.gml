@@ -27,7 +27,7 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 	}
 } else {
 	// movement
-	if (controller.pressUp && onstage) { // only one jump for now
+	if (controller.pressY && onstage) { // only one jump for now
 		// jump
 		yVel += jumpheight;
 	} else if (controller.vert < 0 && onstage) {

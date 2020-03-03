@@ -1,5 +1,7 @@
 /// @description Check win condition
 
+if (!isGameRoom) exit;
+
 var p = global.numPlayers;
 if (p == 1) 
 {
@@ -9,6 +11,7 @@ if (p == 1)
 		winnerPlayer = 0;
 		winnerID = characters[0].characterID;
 		alarm[7] = room_speed;
+		isGameRoom = false;
 	}
 }
 else

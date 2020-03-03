@@ -32,9 +32,9 @@ pressPadDown = false;
 pressPadLeft = false;
 pressPadRight = false;
 
-pressEscape = false
-pressEnter = false;
-pressBack = false;
+pressStart = false
+pressA = false;
+pressB = false;
 
 // The no presses are a real value between -1 and 1 dictating how far the stick is being pressed.
 // When using a keyboard, these will always be -1, 0, or 1, never between.

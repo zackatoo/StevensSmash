@@ -10,9 +10,12 @@ charIDS[0] = undefined;
 characters[0] = undefined;
 HUD = undefined;
 stage = undefined;
+isGameRoom = false;
 
 winnerPlayer = 0;
 winnerID = 0;
+isWinRoom = false;
+isActive = false;
 
 // player buffer is the distance between characters when they spawn in
 playerBuffer = 200;
