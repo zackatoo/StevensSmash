@@ -19,6 +19,7 @@ dead = false;
 
 // character cannot move while in hitstun
 hitstun = 0;
+hit_enemies = ds_list_create();
 
 // moveset
 curMove = undefined;

@@ -24,6 +24,7 @@ if (active)
 		pressStart = gamepad_button_check_pressed(device, keybind.gamepad_escape);
 		pressA = gamepad_button_check_pressed(device, keybind.gamepad_enter);
 		pressB = gamepad_button_check_pressed(device, keybind.gamepad_back);
+		pressY = gamepad_button_check_pressed(device, keybind.gamepad_jump);
 	}
 	else
 	{
@@ -44,5 +45,6 @@ if (active)
 		pressStart = keyboard_check_pressed(keybind.keyboard_escape);
 		pressA = keyboard_check_pressed(keybind.keyboard_enter);
 		pressB = keyboard_check_pressed(keybind.keyboard_back);
+		pressY = keyboard_check_pressed(keybind.keyboard_jump);
 	}
 }

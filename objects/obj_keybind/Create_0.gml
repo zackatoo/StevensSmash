@@ -19,6 +19,7 @@ keyboard_pad_right = vk_right;
 keyboard_escape = vk_escape;
 keyboard_enter = vk_enter;
 keyboard_back = vk_backspace;
+keyboard_jump = vk_space;
 
 gamepad_vert = gp_axislv;
 gamepad_horz = gp_axislh;
@@ -31,3 +32,4 @@ gamepad_right = gp_padr;
 gamepad_escape = gp_start;
 gamepad_enter = gp_face1;
 gamepad_back = gp_face2;
+gamepad_jump = gp_face4;

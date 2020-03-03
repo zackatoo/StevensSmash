@@ -1,7 +1,7 @@
 /// playerGetColor(number, secondary)
 /// @description Returns the color of a player given it's number
 /// @param {real} number The number of a player
-/// @param {real} number If it should be secondary or not
+/// @param {real} isSecond If it should be secondary or not
 
 if (argument[1] == true)
 {

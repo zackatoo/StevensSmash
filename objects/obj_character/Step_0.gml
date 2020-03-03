@@ -13,13 +13,21 @@ if (onstage) {
 
 if (hitstun > 0) { // true when character is flying through air/hit by move
 	hitstun -= 1; // decrease hitstun by one every frame
-	if (hitstun == 0) {
+	if (hitstun == 0 and curMove != undefined) {
 		curMove = undefined; // stop doing move
+		ds_list_clear(hit_enemies);
 		sprite_index = idleSprite; // jank af way to stop move animation
+	} else if (curMove != undefined) {
+		// if currently in move
+		if (curMove.curFrame >= curMove.startFrame and curMove.curFrame <= curMove.endFrame) {
+			// keep hitbox out from startframe to endframe
+			doHitbox(self, curMove, hit_enemies);
+		}
+		curMove.curFrame++;
 	}
 } else {
 	// movement
-	if (controller.pressUp && onstage) { // only one jump for now
+	if (controller.pressY && onstage) { // only one jump for now
 		// jump
 		yVel += jumpheight;
 	} else if (controller.vert < 0 && onstage) {
@@ -44,7 +52,6 @@ if (hitstun > 0) { // true when character is flying through air/hit by move
 			doMove(self, jab);
 		} else {
 			// do aerial
-			// TODO aerial animation
 			doMove(self, aerial);
 		}
 	}
